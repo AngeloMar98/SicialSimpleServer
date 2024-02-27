@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+}
+
+@layer components {
+  .custom-shadow {
+    box-shadow: 0 18px 43px 22px #0000037d;
+  }
+}
