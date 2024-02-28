@@ -4,6 +4,8 @@ This is the repository that contains the setup on node.js to run the simple HTTP
 The setup requires nothing but having Node.js installed on your computer and downloading the files in this repository.
 You can download Node.js [here](https://nodejs.org/en/download)  
 You can go to to the Code button on this page and download the zip. Once the zip is downloaded you can go on with the instructions.
+That's just for running the server though, if you want to handle the code in your editor, remember to install all the depencies 
+with ```npm i```. The dependencies are Tailwind, Express and Nodemon.
 ## Instructions
 Once you have the file unzipped on any directory on your computer you can proceed:
 1. Open a terminal, you can go with either the one incorporated in Visual Code if you opened the folder there or use the CMD;
