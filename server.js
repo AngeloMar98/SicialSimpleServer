@@ -13,6 +13,10 @@ app.use(express.static("public"));
 // we listen to a port
 app.listen(3000);
 
+console.log(
+  "Listening for requests for the HTTP server, port 3000.\n Go to http://localhost:3000/ "
+);
+
 // this will be triggered at every request, so we can log every request method and URL
 app.all("*", (req, _, next) => {
   console.log(`Request method: ${req.method}\nRequest URL: ${req.url} `);
